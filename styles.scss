@@ -1,0 +1,28 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+html {
+    width: 1440px;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/var(--unnamed-line-spacing-16) Amazon Ember;
+}
+
+
+/* You can add global styles to this file, and also import other style files */
+
+// Uncomment the following lines if you want to add a custom palette:
+// $primary: #731963 !default;
+// $secondary: #ce5712 !default;
+// $app-palette: igx-palette($primary, $secondary);
+
+/* autoprefixer grid: on */
+
+@import "~igniteui-angular/lib/core/styles/themes/index";
+// Uncomment the following lines if you want to add a custom palette:
+// $primary: #731963 !default;
+// $secondary: #ce5712 !default;
+// $app-palette: igx-palette($primary, $secondary);
+
+/* autoprefixer grid: on */
+
+@include igx-core();
+@include igx-theme($default-palette);
